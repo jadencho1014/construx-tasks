@@ -1,38 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+* {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #060032;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  color: #eaeaea;
+  margin-bottom: 0.5rem;
+  font-size: 2.2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.TasksWrapper {
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 0.7rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.TasksForm {
+  width: 40rem;
+}
+
+.tasks-input {
+  outline: none;
+  background: none;
+  border: 1px solid #a2a2a2;
+  padding: 0.6rem 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.7rem;
+  width: 500px;
+  color: #fff;
+}
+
+.tasks-input::placeholder {
+  color: #7a7a7a;
+}
+
+.tasks-btn {
+  background: transparent;
+  color: #eaeaea;
+  border: none;
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+.Tasks {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background: #534ba7;
+  color: #eaeaea;
+  padding: 0.75rem 1rem;
+  border-radius: 0.7rem;
+  margin-top: 1rem;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.delete {
+  margin-left: 1rem;
+  font-size: 1.3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.edit {
+  font-size: 1.3rem;
+}
+
+.completed {
+  text-decoration: line-through;
 }
