@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/construx-tasks/static/css/main.1cbbf563.css",
+    "main.js": "/construx-tasks/static/js/main.9977568e.js",
+    "index.html": "/construx-tasks/index.html",
+    "main.1cbbf563.css.map": "/construx-tasks/static/css/main.1cbbf563.css.map",
+    "main.9977568e.js.map": "/construx-tasks/static/js/main.9977568e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1cbbf563.css",
+    "static/js/main.9977568e.js"
+  ]
+}
